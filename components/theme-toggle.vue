@@ -10,6 +10,6 @@ const icon = computed(() => colorMode.value === 'dark' ? 'carbon:moon' : 'carbon
 
 <template>
   <button @click="toggleDark">
-    <Icon :name="icon" :size="20" />
+    <Icon :name="icon" />
   </button>
 </template>
