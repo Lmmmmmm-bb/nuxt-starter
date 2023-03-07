@@ -1,5 +1,6 @@
 import {
   presetUno,
+  presetIcons,
   defineConfig,
   presetWebFonts,
   presetTypography,
@@ -10,6 +11,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
+    presetIcons({ scale: 1.2, warn: true }),
     presetTypography(),
     presetWebFonts({
       fonts: {
