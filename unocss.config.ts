@@ -1,9 +1,9 @@
 import {
-  presetUno,
   defineConfig,
-  presetWebFonts,
+  presetAttributify,
   presetTypography,
-  presetAttributify
+  presetUno,
+  presetWebFonts,
 } from 'unocss';
 
 export default defineConfig({
@@ -16,8 +16,8 @@ export default defineConfig({
         serif: 'Varela Round',
         chinese: 'Noto Sans Simplified Chinese',
         display: 'Baloo 2',
-        mono: 'DM Mono'
-      }
-    })
-  ]
+        mono: 'DM Mono',
+      },
+    }),
+  ],
 });
