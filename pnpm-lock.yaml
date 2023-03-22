@@ -4,6 +4,7 @@ specifiers:
   '@lmmmmmm/eslint-config': ^0.0.3
   '@lmmmmmm/eslint-config-vue': ^0.0.3
   '@nuxtjs/color-mode': ^3.2.0
+  '@nuxtjs/device': ^3.1.0
   '@unocss/nuxt': ^0.50.6
   eslint: ^8.36.0
   nuxt: 3.3.1
@@ -14,6 +15,7 @@ devDependencies:
   '@lmmmmmm/eslint-config': 0.0.3_j4766f7ecgqbon3u7zlxn5zszu
   '@lmmmmmm/eslint-config-vue': 0.0.3_j4766f7ecgqbon3u7zlxn5zszu
   '@nuxtjs/color-mode': 3.2.0
+  '@nuxtjs/device': 3.1.0
   '@unocss/nuxt': 0.50.6
   eslint: 8.36.0
   nuxt: 3.3.1_j4766f7ecgqbon3u7zlxn5zszu
@@ -1257,7 +1259,7 @@ packages:
     dependencies:
       c12: 1.1.0
       create-require: 1.1.1
-      defu: 6.1.1
+      defu: 6.1.2
       jiti: 1.16.0
       pathe: 1.0.0
       pkg-types: 1.0.1
@@ -1416,6 +1418,16 @@ packages:
       '@nuxt/kit': 3.0.0
       lodash.template: 4.5.0
       pathe: 1.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxtjs/device/3.1.0:
+    resolution: {integrity: sha512-jXWCVuPmzsGpn86GTA9/TOmfWulf9h3r2g6o5LpoZk4P1a9McMlpbDiaMPmyG5erfCj6H+XoZ6HBPCN9DtoCDA==}
+    dependencies:
+      '@nuxt/kit': 3.3.1
+      defu: 6.1.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2486,7 +2498,7 @@ packages:
   /c12/1.1.0:
     resolution: {integrity: sha512-9KRFWEng+TH8sGST4NNdiKzZGw1Z1CHnPGAmNqAyVP7suluROmBjD8hsiR34f94DdlrvtGvvmiGDsoFXlCBWIw==}
     dependencies:
-      defu: 6.1.1
+      defu: 6.1.2
       dotenv: 16.0.3
       giget: 1.0.0
       jiti: 1.16.0
@@ -4095,7 +4107,7 @@ packages:
     hasBin: true
     dependencies:
       colorette: 2.0.19
-      defu: 6.1.1
+      defu: 6.1.2
       https-proxy-agent: 5.0.1
       mri: 1.2.0
       node-fetch-native: 1.0.1
@@ -6131,7 +6143,7 @@ packages:
   /rc9/2.0.0:
     resolution: {integrity: sha512-yVeYJHOpJLOhs3V6RKwz7RPPwPurrx3JjwK264sPgvo/lFdhuUrLien7iSvAO6STVkN0gSMk/MehQNHQhflqZw==}
     dependencies:
-      defu: 6.1.1
+      defu: 6.1.2
       destr: 1.2.2
       flat: 5.0.2
     dev: true
