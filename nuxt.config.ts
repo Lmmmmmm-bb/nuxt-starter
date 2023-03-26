@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/device',
     '@vueuse/nuxt',
-    '@nuxtjs/web-vitals'
+    '@nuxtjs/web-vitals',
   ],
   css: [
     '~/index.css',
@@ -15,5 +15,16 @@ export default defineNuxtConfig({
   colorMode: { classSuffix: '' },
   device: {
     refreshOnResize: true,
+  },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+      title: 'Nuxt Starter',
+      meta: [
+        { name: 'description', content: 'Nuxt3 starter' },
+      ],
+    },
   },
 });
