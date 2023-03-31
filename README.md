@@ -1,9 +1,9 @@
 <img align="right" width="80" src="./logo.svg" />
 
-# vite-vue-starter
+# nuxt-starter
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/Lmmmmmm-bb/vite-vue-starter)
-[![GitHub license](https://img.shields.io/github/license/Lmmmmmm-bb/vite-vue-starter)](https://github.com/Lmmmmmm-bb/vite-vue-starter/blob/main/LICENSE)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/Lmmmmmm-bb/nuxt-starter)
+[![GitHub license](https://img.shields.io/github/license/Lmmmmmm-bb/nuxt-starter)](https://github.com/Lmmmmmm-bb/nuxt-starter/blob/main/LICENSE)
 
 > It is strongly recommended to use [degit](https://github.com/Rich-Harris/degit) to clone this repository. It will delete **README.md**, **logo.svg** and **degit.json** when clone.
 
@@ -34,7 +34,7 @@
 1. Clone the template repo.
 
 ```bash
-degit git@github.com:Lmmmmmm-bb/vite-vue-starter.git my-project
+degit git@github.com:Lmmmmmm-bb/nuxt-starter.git my-project
 ```
 
 2. Initialize git repository.
