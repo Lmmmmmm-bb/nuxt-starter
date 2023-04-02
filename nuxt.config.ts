@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/device',
     '@vueuse/nuxt',
+    '@nuxtjs/web-vitals',
   ],
   css: [
     '~/index.css',
