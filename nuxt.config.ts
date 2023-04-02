@@ -22,6 +22,9 @@ export default defineNuxtConfig({
         lang: 'en',
       },
       title: 'Nuxt Starter',
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/nuxt.svg' },
+      ],
       meta: [
         { name: 'description', content: 'Nuxt3 starter' },
       ],
