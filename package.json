@@ -15,7 +15,6 @@
     "@lmmmmmm/eslint-config-vue": "^0.1.0",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/device": "^3.1.0",
-    "@nuxtjs/web-vitals": "^0.2.4",
     "@unocss/nuxt": "^0.50.6",
     "@vueuse/nuxt": "^9.13.0",
     "eslint": "^8.37.0",
