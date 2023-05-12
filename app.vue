@@ -1,6 +1,6 @@
 <template>
   <div
-    font-serif
+    font-sans
     h-full
     flex
     flex-col

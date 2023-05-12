@@ -13,10 +13,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        serif: 'Varela Round',
-        chinese: 'Noto Sans Simplified Chinese',
-        display: 'Baloo 2',
-        mono: 'DM Mono',
+        sans: 'Inter',
       },
     }),
   ],
