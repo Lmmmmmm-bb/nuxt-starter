@@ -22,7 +22,7 @@
 
 - **Vitest** - A Vite-native test framework
 - **Typed Router** - Provide autocompletion for routes
-- **Devtools** A set of visual tools that help you to know your app better
+- **Devtools** - A set of visual tools that help you to know your app better
 - **Pinia** - Intuitive, type safe and flexible Store
 - **Image** - Plug-and-play image optimization
 - **SEO Kit** - The All-In-One SEO Layer
