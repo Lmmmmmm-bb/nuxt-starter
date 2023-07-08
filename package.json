@@ -1,6 +1,6 @@
 {
   "name": "nuxt-starter",
-  "packageManager": "pnpm@8.1.0",
+  "packageManager": "pnpm@8.6.6",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -11,16 +11,16 @@
     "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "@lmmmmmm/eslint-config": "^0.1.0",
-    "@lmmmmmm/eslint-config-vue": "^0.1.0",
-    "@nuxtjs/color-mode": "^3.2.0",
+    "@lmmmmmm/eslint-config": "^0.3.0",
+    "@lmmmmmm/eslint-config-vue": "^0.3.0",
+    "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/device": "^3.1.0",
-    "@nuxtjs/web-vitals": "^0.2.4",
-    "@unocss/nuxt": "^0.50.6",
-    "@vueuse/nuxt": "^9.13.0",
-    "eslint": "^8.37.0",
-    "nuxt": "3.3.2",
-    "nuxt-icon": "^0.3.3",
-    "typescript": "^5.0.3"
+    "@nuxtjs/web-vitals": "^0.2.6",
+    "@unocss/nuxt": "^0.53.5",
+    "@vueuse/nuxt": "^10.2.1",
+    "eslint": "^8.44.0",
+    "nuxt": "3.6.2",
+    "nuxt-icon": "^0.4.2",
+    "typescript": "^5.1.6"
   }
 }
