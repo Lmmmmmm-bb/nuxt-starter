@@ -1,5 +1,6 @@
 {
   "name": "nuxt-starter",
+  "type": "module",
   "packageManager": "pnpm@8.7.5",
   "license": "MIT",
   "scripts": {
@@ -8,11 +9,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint . --fix"
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "@lmmmmmm/eslint-config": "^0.3.0",
-    "@lmmmmmm/eslint-config-vue": "^0.3.0",
+    "@antfu/eslint-config": "1.0.0-beta.27",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/device": "^3.1.1",
     "@nuxtjs/web-vitals": "^0.2.6",
