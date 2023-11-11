@@ -3,10 +3,16 @@ body,
 #__nuxt {
   height: 100%;
   overflow: auto;
-  transition: color, background-color 0.3s ease-in-out;
+  /* transition: color, background-color 0.3s ease-in-out; */
 }
 
 html.dark {
   color: #fff;
   background-color: #222;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }
