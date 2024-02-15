@@ -49,7 +49,9 @@ const toggleDark = async (e: MouseEvent) => {
 </script>
 
 <template>
-  <button @click="toggleDark">
-    <Icon :name="isDarkMode ? 'carbon:moon' : 'carbon:sun'" />
-  </button>
+  <ClientOnly>
+    <button @click="toggleDark">
+      <Icon :name="isDarkMode ? 'carbon:moon' : 'carbon:sun'" />
+    </button>
+  </ClientOnly>
 </template>
