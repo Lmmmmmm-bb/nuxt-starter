@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ."
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
