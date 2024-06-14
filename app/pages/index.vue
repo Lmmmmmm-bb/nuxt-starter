@@ -1,4 +1,3 @@
-import { NuxtPage } from '#build/components';
 <template>
   <div
     h-full
