@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
     '@nuxtjs/color-mode',
-    'nuxt-icon',
+    '@nuxt/icon',
     '@nuxtjs/device',
     '@vueuse/nuxt',
     '@nuxtjs/web-vitals',
