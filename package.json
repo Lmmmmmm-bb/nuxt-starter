@@ -21,7 +21,7 @@
     "@unocss/nuxt": "^0.62.2",
     "@vueuse/nuxt": "^11.0.1",
     "eslint": "^9.9.0",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.0",
     "typescript": "^5.5.4"
   }
 }
