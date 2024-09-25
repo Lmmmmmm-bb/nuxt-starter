@@ -19,9 +19,6 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind.css',
   ],
   colorMode: { classSuffix: '' },
-  device: {
-    refreshOnResize: true,
-  },
   app: {
     head: {
       htmlAttrs: {
