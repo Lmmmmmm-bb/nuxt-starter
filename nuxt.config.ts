@@ -33,4 +33,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+  icon: {
+    collections: ['carbon'],
+  },
 });
