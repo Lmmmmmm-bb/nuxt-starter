@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devServer: {
     port: 5173,
   },
-  future: {
-    compatibilityVersion: 4,
-  },
   modules: [
     '@unocss/nuxt',
     '@nuxtjs/color-mode',
