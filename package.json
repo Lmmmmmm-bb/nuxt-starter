@@ -1,7 +1,7 @@
 {
   "name": "nuxt-starter",
   "type": "module",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -20,8 +20,8 @@
     "@nuxtjs/web-vitals": "^0.2.7",
     "@unocss/eslint-plugin": "^66.4.2",
     "@unocss/nuxt": "^66.4.2",
-    "@vueuse/nuxt": "^13.7.0",
-    "eslint": "^9.33.0",
+    "@vueuse/nuxt": "^13.8.0",
+    "eslint": "^9.34.0",
     "nuxt": "^4.0.3",
     "typescript": "^5.9.2"
   }
